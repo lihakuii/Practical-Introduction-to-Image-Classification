@@ -1,0 +1,14 @@
+当前目录总共四个文件夹
+homework_dataset文件夹储存数据集
+
+logs文件夹储存模型训练过程的loss和accuracy参数变化的tensorboard数据文件
+
+model_data文件夹储存训练后的模型参数
+
+src_homework文件夹储存源代码
+
+操作步骤：
+1.先运行data_augment.py文件对数据集图片进行扩充
+2.进入final_assignment_train.py文件中，对最底下主函数按照要求进行注释调整，然后运行代码训练指定模型，一共需要运行四次，训练四种模型。会将每轮训练得到的模型参数储存在../model_data/下对应的文件夹中，loss和accuracy的tensorboard变化数据储存在../logs/logs_train/对应文件夹中。
+3.进入final_ass_resnet18_test.py文件中，按照要求调整主函数中代码，分别测试resnet18两种情况下的模型，并将测试得到的accuracy变化呈现出来
+4.进入final_assignment_vgg16_test.py文件中，按照要求调整主函数中代码，分别测试vgg16两种情况下的模型，并将测试得到的accuracy变化呈现出来

@@ -1,0 +1,3 @@
+该文件夹下除了housework_data子文件夹和model_data子文件夹储存的是运行data_augment.py代码前的数据，其余子文件夹是按照操作流程运行后的程序和数据。housework_data子文件夹数据与unrun相同，故删除
+
+数据集扩充后的数据集高达1多个g，储存训练后模型参数的文件总共20多个g，无法上传。
